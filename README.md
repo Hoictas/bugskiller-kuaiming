@@ -1,6 +1,6 @@
-# kuaiming(快名)
+# 快名
 
-A quick batch naming tool.
+一个批量命名的Java小工具
 
 功能
 ---
