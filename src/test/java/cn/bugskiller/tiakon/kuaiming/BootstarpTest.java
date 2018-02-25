@@ -12,10 +12,14 @@ import java.util.Date;
 public class BootstarpTest {
     @Test
     public void testMain() {
-        String keyWord = "微信图片_";
-        String fileName = "微信图片_201802231039291";
-        String newfile = fileName.substring(keyWord.length());
+        String keyWord = " - 副本 ";
+        String fileName = "20180223104717 - 副本 (2).jpg";
+        System.out.println(fileName.indexOf(keyWord));
+        System.out.println(keyWord.length());
+        String newfile = fileName.replaceFirst(keyWord,"");
         System.out.println(newfile);
+//        String newfile = fileName.substring(fileName.indexOf(keyWord),keyWord.length());
+//        System.out.println(newfile);
     }
 
     @Test
